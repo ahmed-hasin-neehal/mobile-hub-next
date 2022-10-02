@@ -37,7 +37,7 @@ export default function Home() {
                 <CardActions>
                   <Typography>${product.price}</Typography>
                   <Button size="small" color="primary" variant="contained" onClick={() => addToCartHandler(product)}>Add to Cart</Button>
-                  <Button size="small" color="secondary" variant="contained">Overview</Button>
+                  <Button size="small" color="secondary" variant="contained">Quick View</Button>
                 </CardActions>
               </Card>
             </Grid>
